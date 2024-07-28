@@ -19,3 +19,13 @@
     background-clip: text;
     color: transparent;
 }
+
+.bg-about-us {
+    background: white
+}
+
+@media (min-width: 768px) {
+    .bg-about-us {
+        background: linear-gradient(90deg, rgba(13, 115, 255, 0.91) 14%, #FFFFFF 100%)
+    }
+}
