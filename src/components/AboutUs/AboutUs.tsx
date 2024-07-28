@@ -1,7 +1,6 @@
 export default function AboutUs() {
   return (
-    <div
-      className="w-full flex flex-col gap-4 mt-12 py-4 md:text-white text-black bg-about-us">
+    <div id="about-us" className="w-full flex flex-col gap-4 mt-12 py-4 md:text-white text-black bg-about-us">
       <p className="font-Quicksand container mx-auto tracking-[14px] font-bold text-lg">
         About us
       </p>

@@ -37,3 +37,57 @@ export const ArrowTopLineWhite = () => {
         </svg>
     )
 }
+
+export const Ballon = () => {
+    return (
+        <svg width="190" height="560" viewBox="0 0 190 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M97.0001 559.5C-35.9999 411.968 139 326 77 184.5" stroke="#51ADE5" />
+            <circle cx="95" cy="95" r="95" fill="#67D1EE" />
+        </svg>
+    )
+}
+
+export const CircleBlur = () => {
+    return (
+        <svg width="426" height="311" viewBox="0 0 426 311" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="353" y="301" width="266" height="277" transform="rotate(-180 353 301)" fill="url(#paint0_linear_78_46)" />
+            <g filter="url(#filter0_b_78_46)">
+                <path d="M0 50C0 22.3858 22.3858 0 50 0H376C403.614 0 426 22.3858 426 50V261C426 288.614 403.614 311 376 311H50C22.3858 311 0 288.614 0 261V50Z" fill="#D4D4D4" fill-opacity="0.1" />
+                <path d="M1.5 50C1.5 23.2142 23.2142 1.5 50 1.5H376C402.786 1.5 424.5 23.2142 424.5 50V261C424.5 287.786 402.786 309.5 376 309.5H50C23.2142 309.5 1.5 287.786 1.5 261V50Z" stroke="url(#paint1_linear_78_46)" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round" />
+            </g>
+            <defs>
+                <filter id="filter0_b_78_46" x="-60" y="-60" width="546" height="431" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feGaussianBlur in="BackgroundImageFix" stdDeviation="30" />
+                    <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_78_46" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_78_46" result="shape" />
+                </filter>
+                <linearGradient id="paint0_linear_78_46" x1="619" y1="439.5" x2="353" y2="439.5" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FFA033" />
+                    <stop offset="0.5" stop-color="#F4572C" />
+                    <stop offset="1" stop-color="#C90D69" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_78_46" x1="-1.33125" y1="-154.528" x2="146.777" y2="48.3462" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="white" stop-opacity="0.5" />
+                    <stop offset="1" stop-color="white" stop-opacity="0.1" />
+                </linearGradient>
+            </defs>
+        </svg>
+    )
+}
+
+export const HollowCircle = () => {
+    return (
+        <svg width="251" height="223" viewBox="0 0 251 223" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M250 106.5C250 170.227 194.771 222 126.5 222C58.2293 222 3.00008 170.227 3.00008 106.5C3.00008 98.4304 2.63951 90.3688 2.25376 82.516C2.21126 81.6509 2.16846 80.7884 2.1258 79.9287C1.78085 72.9771 1.44512 66.2112 1.35154 59.74C1.14082 45.1689 2.16659 32.2776 6.96266 22.3702C11.7135 12.5564 20.2191 5.56349 35.2924 2.88184C50.4297 0.188813 72.1579 1.85544 103.21 9.45848C118.004 14.8182 132.743 19.3793 146.838 23.7412C150.498 24.8739 154.115 25.9931 157.678 27.1094C174.998 32.5359 191.047 37.8923 204.759 44.4004C218.47 50.9082 229.771 58.5351 237.646 68.4619C245.504 78.3661 250 90.623 250 106.5Z" stroke="#C90D69" stroke-width="2" />
+        </svg>
+    )
+}
+
+export const Triangle = () => {
+    return (
+        <svg width="213" height="207" viewBox="0 0 213 207" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M146.467 0.672808L212.218 206.954L0.697617 160.755L146.467 0.672808Z" fill="#C90D69" />
+        </svg>
+    )
+}
