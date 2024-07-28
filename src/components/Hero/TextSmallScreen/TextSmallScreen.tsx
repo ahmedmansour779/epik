@@ -1,4 +1,5 @@
 import Circle from "./Circle";
+import ImageAndText from "./ImageAndText";
 import Line from "./Line";
 
 export default function TextSmallScreen() {
@@ -20,6 +21,7 @@ export default function TextSmallScreen() {
           Request a call
         </a>
       </div>
+      <ImageAndText />
     </div>
   );
 }
