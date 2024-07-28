@@ -15,7 +15,7 @@ export default function ListTaps() {
     <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
       <div className='p-4 w-full h-lvh flex flex-col gap-4 items-center bg-primary text-white font-Rammetto'>
         {['home', 'products', 'about-us', 'contact'].map((text) => (
-          <a href={`#${text}`} >
+          <a href={`#${text}`} key={text}>
             {text.toUpperCase()}
           </a>
         ))}
