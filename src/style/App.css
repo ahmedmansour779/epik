@@ -3,3 +3,19 @@
     border-image-source: linear-gradient(90deg, #FFC63C 12.49%, #FFA533 32.12%, #C60D69 86.94%);
     border-image-slice: 1;
 }
+
+.text-gradient {
+    background: conic-gradient(from 90deg at 50% 50%, #3F34BA -115.87deg, #FF0606 76.32deg, #3F34BA 244.13deg, #FF0606 436.32deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.text-gradient-details {
+    background: linear-gradient(90deg, #056AFF 0%, #5CC7FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
