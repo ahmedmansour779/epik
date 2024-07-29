@@ -7,7 +7,7 @@ export default function Form() {
       <p className="font-Quicksand text-2xl font-bold">
         Please enter Your data
       </p>
-      <div className="flex gap-4">
+      <div className="flex flex-col md:flex-row gap-4">
         <InputText name="firstName" placeholder="First Name" />
         <InputText name="lastName" placeholder="Last Name" />
       </div>
