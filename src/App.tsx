@@ -1,4 +1,5 @@
 import AboutUs from './components/AboutUs'
+import ContactUs from './components/ContactUs'
 import FeaturedProducts from './components/FeaturedProducts'
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -16,6 +17,7 @@ function App() {
       <OurService />
       <OurValuablePartners />
       <FeaturedProducts />
+      <ContactUs />
     </>
   )
 }
