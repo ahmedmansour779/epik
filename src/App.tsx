@@ -1,4 +1,5 @@
 import AboutUs from './components/AboutUs'
+import FeaturedProducts from './components/FeaturedProducts'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import OurService from './components/OurService'
@@ -14,6 +15,7 @@ function App() {
       <AboutUs />
       <OurService />
       <OurValuablePartners />
+      <FeaturedProducts />
     </>
   )
 }
